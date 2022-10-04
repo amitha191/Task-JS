@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+
+<body class=" text-success align-items-center">
+
+    <form class="d-flex justify-content-center p-5" onsubmit="onSubmit()">
+    
+        <div class="px-4">
+            <label class="" for="Grocerries">Grocerries</label>
+            <input type="text" name="item" id="item">
+        </div>
+
+        <div class="form-btn">
+            <input type="submit" value="Add Item">
+        </div>
+
+    </form>
+
+    <br>
+    <table class="d-flex justify-content-center table-bordered" id="grocerry-list" >
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Grocerries</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <!-- <div class="container">
+        <h1 class="main-heading">Colors List</h1>
+        <ul>
+            <li class="list-items">Green</li>
+            <li class="list-items">Red</li>
+            <li class="list-items">Orange</li>
+            <li class="list-items">Purple</li>
+            <li class="list-items">White</li>
+        </ul>
+    </div> -->
+    <!-- <form>
+        <input type="text" name="item" id="item" for="item">
+        <input type="submit" onclick="addItem()" name="submit" id="submit" for="submit"></input>
+        <p id="item1"></p>
+    </form> 
+
+    
+    // let ul= document.querySelector('ul');
+    // console.log(ul.parentElement);
+    // console.log(ul.parentNode.parentNode);
+    // console.log(ul.previousSibling);
+    // console.log(ul.childNodes.values);
+    // ul.children[0].style.backgroundColor = 'yellow';
+    // ul.lastElementChild.style.backgroundColor = 'grey';
+    // console.log(ul.children);
+    // console.log(ul.firstElementChild);
+    // console.log(ul.firstChild);
+    // const ul= document.querySelector('ul');
+    // const li=document.createElement('li');
+    // ul.append(li);
+    // li.innerText= 'Amitha';
+
+    // function addItem(event){
+    //     console.log("Hello");
+    //     var p=document.createElement('p');
+     
+    //     document.getElementById('item1').innerHTML= p.appendChild('item1');
+    // } -->
+
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

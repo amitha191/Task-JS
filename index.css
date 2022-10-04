@@ -1,0 +1,13 @@
+/* form{
+    display: flex;
+    gap: 1%;
+}
+table, td, th, tr{
+    border: 2px solid green;
+    padding: 10px;
+    border-collapse: collapse;
+} */
+
+th,td{
+    padding: 8px;
+}
